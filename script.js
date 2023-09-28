@@ -41,7 +41,7 @@ const increaseScore = () => {
 
 createBubbles(80);
 createHit();
-createTimer(6);
+createTimer(60);
 
 bottom.addEventListener("click", (e) => {
   const bubbleClicked = e.target.classList.contains("bubble");
